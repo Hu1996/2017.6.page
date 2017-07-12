@@ -1,0 +1,410 @@
+@charset "utf-8";
+/* CSS Document */
+* html,body,div{
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font:"微软雅黑";
+	}	
+ul, ol {
+	list-style: none;
+	}
+.ov-hd{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:99;
+	overflow:hidden;
+	}	
+
+/*头部电量*/
+.nav-top{
+	width:100%;
+	height:3vh;
+	display:flex;
+	justify-content:space-between;
+	position:fixed;
+	top:0;
+	z-index:99;
+	background:#FFF;
+	}
+.nav-top .nav-left{
+	width:120px;
+	height:20px;
+	display:flex;
+	align-items:center;
+	padding-left:5px;
+	}
+.nav-top .nav-left .wx{
+	width:18px;
+	height:18px;
+	}
+.nav-top .nav-left .p1{
+	font-size:12px;
+	line-height:20px;
+	margin-right:5px;
+	}
+.nav-top .nav-left ul{
+	width:30px;
+	height:10px;
+	padding:0;
+	margin:0;
+	display:flex;
+	align-items:center;
+	margin-right:5px;
+	}
+.nav-top .nav-left ul li{
+	width:5px;
+	height:5px;
+	border-radius:100%;
+	background:#000;
+	float:left;
+	margin-right:1px;
+	}	
+.nav-top .time{
+	font-size:14px;
+	line-height:20xp;
+	margin:0px;
+	padding:0;
+	}				
+.nav-top .nav-right{
+	width:120px;
+	height:20px;
+	display:flex;
+	align-items:center;
+	flex-direction:row-reverse;
+	padding-right:5px;
+	}	
+.nav-top .nav-right .dl{
+	width:20px;
+	height:20px;
+	}	
+.nav-top .nav-right .p2{
+	font-size:14px;
+	line-height:20px;
+	margin-right:5px;
+	}	
+/*搜索*/	
+.search{
+	width100vw;
+	height:6.6vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:fixed;
+	top:3vh;
+	background:#FFF;
+	}
+.search-center{
+	width:92%;
+	height:4.2vh;
+	display:flex;
+	justify-content:space-between;
+	}	
+.search-center .search-center-left{
+	width:88%;
+	height:100%;
+	border-radius:4.2vh;
+	background:#e9e9e9;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0 1.8vh;
+	}	
+.search-center .search-center-left 	img{
+	width:3vh;
+	height:3vh;
+	}
+.search-center .search-center-left input{
+	width:90%;
+	height:auto;
+	border:0;
+	outline:none;
+	background:#e9e9e9;
+	font-size:1.5vh;
+	}	
+.search-center img{
+	width:4.2vh;
+	height:4.2vh;
+	}	
+/*轮播*/				
+.Carousel{
+	width:100%;
+	height:35vw;
+    max-height:350px;
+	max-width:1024px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:11vh;
+	}
+.Carousel img{
+	width:100%;
+	height:100%;
+	}	
+/*猜你喜欢*/
+.nav-center{
+	width:100%;
+	height:13.3vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	max-width:1024px;
+	margin:0 auto;
+	}
+.nav-center ul{
+	width:100%;
+	height:72%;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0;
+	}
+.nav-center ul li{
+	width:20vw;
+	height:100%;
+	float:left;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:space-between;
+	}
+.nav-center ul li .nav-center-img{
+	width:12vw;
+	height:12vw;
+	border-radius:100%;
+	overflow:hidden;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	max-width:60px;
+	max-height:60px;
+	}
+.nav-center ul li .nav-center-img img{
+	width:60%;
+	height:60%;
+	}
+.nav-center ul li span{
+	font-size:2vh;
+	}
+.nav-center ul li #color1{
+	background:#fd699b;
+	}
+.nav-center ul li #color2{
+	background:#ff882a;
+	}
+.nav-center ul li #color3{
+	background:#f76e5c;
+	}
+.nav-center ul li #color4{
+	background:#f3ca4c;
+	}
+.nav-center ul li #color5{
+	background:#5c5859;
+	}	
+/*推荐*/	
+.commend{
+	width:100%;
+    height:17vw;
+    max-height:170px;
+	display:flex;
+	justify-content:center;
+	max-width:1024px;
+	margin:0 auto;
+	margin-bottom:2.2vh;
+	}
+.commend .commend-center{
+	width:97%;
+	height:100%;
+	display:flex;
+	justify-content:space-between
+	}	
+.commend .commend-center .Chart{
+	width:32.2%;
+	height:100%;
+	border-radius:5px;
+	overflow:hidden;
+	}
+.commend .commend-center .Chart img{
+	width:100%;
+	height:100%;
+	}
+	
+.commend .commend-center .Chart2{
+	width:66%;
+	height:100%;
+	border-radius:5px;
+	overflow:hidden;
+	}
+.commend .commend-center .Chart2 img{
+	width:100%;
+	height:100%;
+	}		
+/*必听歌单*/	
+.songSheet{
+	wdith:100%;
+	height:80vh;
+	margin:0 auto;
+	max-width:1024px;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	}
+.songSheet .songSheet-text{
+	width:97%;
+	height:6.1vh;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	}
+.songSheet .songSheet-text .text1{
+	height:2.8vh;
+	width:auto;
+	font-size:2.5vh;
+	border-left:4px solid #FF8833;
+	padding-left:5px;
+	display:flex;
+	align-items:center;
+	font-weight:600;
+	}
+.songSheet .songSheet-text .text2{
+	height:2.8vh;
+	width:auto;
+	font-size:2.5vh;
+	display:flex;
+	align-items:center;
+	color:#ff8833;
+	font-weight:600;
+	}
+.songSheet .songSheet-text .text2 img{
+	width:2.8vh;
+	height:2.8vh;
+	}
+.songSheet .songSheet-div{
+	width:97%;
+	height:50vh;
+	}
+.songSheet .songSheet-div ul{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	}
+.songSheet .songSheet-div ul li{
+	width:30.8vw;
+	height:45.3vw;
+	display:flex;
+	flex-direction:column;
+	max-height:463.86px;
+	max-width:315.39px;
+	}	
+.songSheet .songSheet-div ul li .songSheet-music{
+	width:30.8vw;
+	height:30.8vw;
+	margin-bottom:2vw;
+	max-height:315.39px;
+	max-width:315.39px;
+	}
+.songSheet .songSheet-div ul li .songSheet-music img{
+	width:100%;
+	height:100%;
+	}
+.songSheet .songSheet-div ul li p{
+	margin:0;
+	padding:0;
+	font-size:2vh;
+	color:#313131;
+	}
+.songSheet .songSheet-div ul li p span{
+	color:#8a8a8a;
+	padding-right:2vw;
+	}															
+/*底部导航*/
+.nav-bottom{
+	width:100%;
+	height:7.7vh;
+	position:fixed;
+	bottom:0;
+	z-index:999;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:#fafafa;
+	}
+.nav-bottom .nav-bottom-center{
+	width:95%;
+	height:80%;
+	display:flex;
+	align-items:center;
+	padding:0;
+	}
+.nav-bottom .nav-bottom-center ul{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	display:flex;
+	justify-content:space-between;
+	}
+.nav-bottom .nav-bottom-center ul li{
+	width:8vh;
+	height:6vh;
+	float:left;
+	display:flex;
+	justify-content:space-between;
+	flex-direction:column;
+	align-items:center;
+	}
+.nav-bottom .nav-bottom-center ul li img{
+	width:4vh;
+	height:4vh;
+	}	
+
+.nav-bottom .nav-bottom-center ul li span{
+	font-size:1.5vh;
+	color:#333;
+	}	
+.nav-bottom .nav-bottom-center ul .music{
+	width:8vh;
+	height:8vh;
+	border-radius:100%;
+	border:10px solid #f8f8f8;
+	margin-top:-2vh;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	}
+.nav-bottom .nav-bottom-center ul .music .music-img1{
+	width:8vh;
+	height:8vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10000;
+	border-radius:100%;
+	}	
+.nav-bottom .nav-bottom-center ul .music .masking{
+	width:8vh;
+	height:8vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10001;
+	background:rgba(0,0,0,0.2);
+	border-radius:100%;
+	}
+
+.nav-bottom .nav-bottom-center ul .music .music-img2{
+	width:4vh;
+	height:4vh;
+	position:absolute;
+	z-index:10000;
+	}	
+	
+								

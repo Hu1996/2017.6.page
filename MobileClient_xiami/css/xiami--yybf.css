@@ -1,0 +1,118 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*音乐播放*/
+.musicPlay{
+	position:fixed;
+	z-index:99999999999;
+	top:100vh;
+	left:0;
+	width:100vw;
+	height:100vh;
+	background:#F4f4f4;
+	transition:all 0.5s ease;
+	}
+
+/*返回*/	
+.musicPlay .return2{
+	width:100%;
+	height:8.1vh;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:0 5%;
+	padding-top:3vh;
+	box-sizing:border-box;
+	background:#FFF;
+	}
+.musicPlay .return2 img{
+	width:3vh;
+	height:3vh;
+	}	
+.musicPlay .return2 p{
+	width:20%;
+	height:auto;
+	}	
+.musicPlay .return2 .return2-p2 img{
+	width:5vh;
+	height:5vh;
+	float:right;
+	}
+/*音乐照片*/
+.musicImgs{
+	width:100%;
+	height:68vh;
+	display:flex;
+	justify-content:center;
+	flex-direction:column;
+	align-items:center;
+	background:#FFF;
+	}
+.musicImgs img{
+	width:44.2vh;
+	height:44.2vh;
+	}
+.musicImgs p{
+	margin:0;
+	padding:0;
+	}	
+.musicImgs .musicImgs-text1{
+	font-size:2.2vh;
+	margin-top:1vh;
+	}
+.musicImgs .musicImgs-text1 span{
+	padding:0.2vh;
+	border:2px solid #ff8833;
+	font-size:1.5vh;
+	margin-left:1vh;
+	color:#ff8833;
+	border-radius:1vh
+	}		
+.musicImgs .musicImgs-text2{
+	font-size:2vh;
+	margin-top:0.5vh;
+	}
+.musicImgs .musicTime{
+	width:100%;
+	height:9vh;
+	margin-top:2vh;
+	position:relative;
+	}
+.musicImgs .musicTime .music-audio{
+	width:100%;
+	height:10%;
+	background:#FFF;
+	position:absolute;
+	bottom:0;
+	
+	}	
+.musicImgs .musicCollect{
+	width:100%;
+	height:9.8vh;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	}
+.musicImgs .musicCollect img{
+	width:4vh;
+	height:4vh;
+	}	
+/*评论*/			
+/*播放底部功能*/	
+.playFunction{
+	width:100%;
+	height:7.5vh;
+	background:#FFF;
+	display:flex;
+	justify-content:space-around;
+	align-items:center;
+	margin-top:16.1vh;
+	}
+.playFunction img{
+	width:4vh;
+	height:4vh;
+	}
+.playFunction .playFunction-imgs{
+	width:7vh;
+	height:7vh;
+	}							

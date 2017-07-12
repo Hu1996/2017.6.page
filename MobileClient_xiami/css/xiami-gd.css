@@ -1,0 +1,399 @@
+@charset "utf-8";
+/* CSS Document */
+
+* html,body,div{
+	width:100%;
+	height:100%;
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+	font:"微软雅黑";
+	}
+html,body{
+	background:#f4f4f4;
+	}	
+ul, ol {
+	list-style: none;
+	}
+
+
+/*头部电量*/
+.nav-top{
+	width:100vw;
+	height:3vh;
+	display:flex;
+	justify-content:space-between;
+	position:fixed;
+	top:0;
+	z-index:99;
+	background:#FFF;
+	}
+.nav-top .nav-left{
+	width:120px;
+	height:20px;
+	display:flex;
+	align-items:center;
+	padding-left:5px;
+	}
+.nav-top .nav-left .wx{
+	width:18px;
+	height:18px;
+	}
+.nav-top .nav-left .p1{
+	font-size:12px;
+	line-height:20px;
+	margin-right:5px;
+	}
+.nav-top .nav-left ul{
+	width:30px;
+	height:10px;
+	padding:0;
+	margin:0;
+	display:flex;
+	align-items:center;
+	margin-right:5px;
+	}
+.nav-top .nav-left ul li{
+	width:5px;
+	height:5px;
+	border-radius:100%;
+	background:#000;
+	float:left;
+	margin-right:1px;
+	}	
+.nav-top .time{
+	font-size:14px;
+	line-height:20xp;
+	margin:0px;
+	padding:0;
+	}				
+.nav-top .nav-right{
+	width:120px;
+	height:20px;
+	display:flex;
+	align-items:center;
+	flex-direction:row-reverse;
+	padding-right:5px;
+	}	
+.nav-top .nav-right .dl{
+	width:20px;
+	height:20px;
+	}	
+.nav-top .nav-right .p2{
+	font-size:14px;
+	line-height:20px;
+	margin-right:5px;
+	}	
+/*消息*/	
+.more{
+	width:100%;
+	height:5.1vh;
+	position:fixed;
+	top:3vh;
+	background:#FFF;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:0 5%;
+	}
+.more p{
+	width:20%;
+	height:auto;
+	}	
+.more .more-p1{
+	font-size:2.5vh;
+	color:#181818;
+	}	
+.more img{
+	width:3vh;
+	height:2.7vh;
+	}	
+/*任务*/
+.task{
+	width:100%;
+	height:14.2vh;
+	background:#fff;
+	margin:0 auto;
+	margin-top:8.4vh;
+	max-width:1024px;
+	display:flex;
+	align-items:center;
+	}
+.task ul{
+	width:100%;
+	height:80%;
+	margin:0;
+	padding:0;
+	display:flex;
+	justify-content:space-between;
+	}
+.task ul li{
+	width:33%;
+	height:100%;
+	float:left;
+	display:flex;
+	justify-content:space-between;
+	flex-direction:column;
+	align-items:center;
+	}	
+.task ul li img{
+	width:6vh;
+	height:5vh;
+	}
+.task ul li .task-img{
+	width:5vh;
+	height:5vh;
+	}	
+.task ul li p{
+	margin:0;
+	padding:0;
+	}
+.task ul li .task-text1{
+	font-size:2.2vh;
+	color:#222;
+	}
+.task ul li .task-text2{
+	font-size:1.8vh;
+	color:#929292;
+	}	
+/*定时*/	
+.timing{
+	width:100%;
+	height:26.8vh;
+	margin-top:1vh;
+	background:#FFF;
+	max-width:1024px;
+	margin:0 auto;
+	}
+.timing ul{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	}
+.timing ul li{
+	width:100%;
+	height:33%;
+	padding:0 3vh;
+	box-sizing:border-box;
+	border-top:1px solid #F4f4f4;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	}
+.timing ul li img{
+	width:5vh;
+	height:5vh;
+	}
+.timing ul li .timing-img{
+	width:3vh;
+	height:3vh;
+	}	
+.timing ul li div{
+	width:80%;
+	height:auto;
+	color:#1c1c1c;
+	font-size:2.2vh;
+	padding:0 3vh;
+	}	
+/*邀请*/
+.invite{
+	width:100%;
+	height:18vh;
+	background:#fff;
+	margin-top:1vh;
+	max-width:1024px;
+	margin:0 auto;
+	}
+.invite ul{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	}
+.invite ul li{
+	width:100%;
+	height:50%;
+	margin:0;
+	padding:0 3vh;
+	box-sizing:border-box;
+	border-top:1px solid #F4f4f4;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	}
+.invite ul li img{
+	width:5vh;
+	height:5vh;
+	}
+.invite ul li .timing-img{
+	width:3vh;
+	height:3vh;
+	}	
+.invite ul li div{
+	width:80%;
+	height:auto;
+	color:#1c1c1c;
+	font-size:2.2vh;
+	padding:0 3vh;
+	}
+/*社区*/
+.community{
+	width:100%;
+	height:8.9vh;
+	background:#FFF;
+	margin-top:1vh;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:0 3vh;
+	max-width:1024px;
+	margin:0 auto;
+	}
+
+.community img{
+	width:5vh;
+	height:5vh;
+	}
+.community .community-img{
+	width:3vh;
+	height:3vh;
+	}	
+.community div{
+	width:80%;
+	height:auto;
+	color:#1c1c1c;
+	font-size:2.2vh;
+	padding:0 3vh;
+	}	
+/*设置*/
+.setUp{
+	width:100%;
+	height:18vh;
+	background:#fff;
+	margin-top:1vh;
+	max-width:1024px;
+	margin:0 auto;
+	}
+.setUp ul{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	}
+.setUp ul li{
+	width:100%;
+	height:50%;
+	margin:0;
+	padding:0 3vh;
+	box-sizing:border-box;
+	border-top:1px solid #F4f4f4;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	}
+.setUp ul li img{
+	width:5vh;
+	height:5vh;
+	}
+.setUp ul li .setUp-img{
+	width:3vh;
+	height:3vh;
+	}	
+.setUp ul li div{
+	width:80%;
+	height:auto;
+	color:#1c1c1c;
+	font-size:2.2vh;
+	padding:0 3vh;
+	}	
+	
+	
+.div1{
+	width:100%;
+	height:20vh;
+	}												
+/*底部导航*/
+.nav-bottom{
+	width:100%;
+	height:7.7vh;
+	position:fixed;
+	bottom:0;
+	z-index:999;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:#fafafa;
+	color:#333;
+	}
+.nav-bottom .nav-bottom-center{
+	width:95%;
+	height:80%;
+	display:flex;
+	align-items:center;
+	padding:0;
+	}
+.nav-bottom .nav-bottom-center ul{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	display:flex;
+	justify-content:space-between;
+	}
+.nav-bottom .nav-bottom-center ul li{
+	width:8vh;
+	height:6vh;
+	float:left;
+	display:flex;
+	justify-content:space-between;
+	flex-direction:column;
+	align-items:center;
+	}
+.nav-bottom .nav-bottom-center ul li img{
+	width:4vh;
+	height:4vh;
+	}	
+
+.nav-bottom .nav-bottom-center ul li span{
+	font-size:1.5vh;
+	color:#333;
+	}	
+.nav-bottom .nav-bottom-center ul .music{
+	width:8vh;
+	height:8vh;
+	border-radius:100%;
+	border:10px solid #f8f8f8;
+	margin-top:-2vh;
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	}
+.nav-bottom .nav-bottom-center ul .music .music-img1{
+	width:8vh;
+	height:8vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10000;
+	border-radius:100%;
+	}	
+.nav-bottom .nav-bottom-center ul .music .masking{
+	width:8vh;
+	height:8vh;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10001;
+	background:rgba(0,0,0,0.2);
+	border-radius:100%;
+	}
+
+.nav-bottom .nav-bottom-center ul .music .music-img2{
+	width:4vh;
+	height:4vh;
+	position:absolute;
+	z-index:10000;
+	}					

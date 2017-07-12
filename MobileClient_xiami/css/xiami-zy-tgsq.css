@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*听歌识曲*/
+.ShazamEncore{
+	position:fixed;
+	top:0;
+	left:100vw;
+	z-index:99999999999;
+	width:100vw;
+	height:100vh;
+	background:#FF8833;
+	transition:all 0.5s ease;
+	}
+	
+	
+	
+		
+/*返回*/	
+.ShazamEncore .return{
+	width:100%;
+	height:5.1vh;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:0 5%;
+	margin-top:3vh;
+	}
+.ShazamEncore .return img{
+	width:3vh;
+	height:3vh;
+	}	
+.ShazamEncore .return p{
+	width:30%;
+	height:auto;
+	}	
+.ShazamEncore .return .return-p1{
+	font-size:2.5vh;
+	text-align:center;
+	}	
+.ShazamEncore .return .return-p2{
+	font-size:2.2vh;
+	text-align:right;
+	}
+/*识别*/
+.ShazamEncore .recognition{
+	width:100%;
+	height:308px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	}
+.ShazamEncore .recognition  .recognition-text1{
+	font-size:4vh;
+	margin:1vh;
+	color:#fff;
+	}
+.ShazamEncore .recognition  .recognition-text2{
+	font-size:2.8vh;
+	margin:1vh;
+	color:#fff;
+	}	
+/*识别图*/
+.ShazamEncore .ShazamImg{
+	width:100%;
+	height:18vh;
+	display:flex;
+	justify-content:center;
+	}
+.ShazamEncore .ShazamImg div{
+	width:18vh;
+	height:18vh;
+	box-sizing:border-box;
+	border:1.8vh solid #FFF;
+	border-radius:100%;
+	display:flex;
+	justify-content:center;
+	}
+.ShazamEncore .ShazamImg div img{
+	width:100%;
+	height:100%;
+	margin-left:-2.5vh
+	}
+/*添加*/
+.ShazamEncore .append{
+	width:100%;
+	height:12.8vh;
+	display:flex;
+	align-items:center;
+	flex-direction:column-reverse;
+	}
+.ShazamEncore .append div{
+	width:54%;
+	height:6.8vh;
+	border:1px solid #FFF;
+	border-radius:6.8vh;
+	color:#fff;
+	font-size:2.4vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	}
+.ShazamEncore .append div:active{
+	background:#fff;
+	color:#ff8833;
+	}	
+/*底部版权*/				
+.ShazamEncore #footer-bottom{
+	width:100%;
+	height:6.8vh;
+	position:absolute;
+	bottom:0;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	color:#ffc499;
+	font-size:2vh;
+	}	
