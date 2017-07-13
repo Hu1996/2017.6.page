@@ -109,11 +109,11 @@ ul, ol {
 	margin:0 3vw;
 	}
 .top-bg .entry img{
-	width:80%;
-	height:80%;
-	position:absolute;
-	bottom:0;
-	left: 10%;
+   	width: 80%;
+    	height: 80%;
+    	position: absolute;
+    	bottom: 0;
+    	left: 10%;
 	}
 .top-bg p{
 	font-size:2.5vh;
