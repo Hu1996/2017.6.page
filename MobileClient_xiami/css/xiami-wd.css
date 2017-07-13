@@ -113,6 +113,7 @@ ul, ol {
 	height:80%;
 	position:absolute;
 	bottom:0;
+	left: 10%;
 	}
 .top-bg p{
 	font-size:2.5vh;
@@ -293,8 +294,10 @@ ul, ol {
 	}
 
 .nav-bottom .nav-bottom-center ul .music .music-img2{
-	width:4vh;
-	height:4vh;
-	position:absolute;
-	z-index:10000;
+	width: 60%;
+        height: 50%;
+        position: absolute;
+        z-index: 10000;
+    	top: 25%;
+    	left: 20%;
 	}				
